@@ -31,7 +31,11 @@ img {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(315px, 1fr));
     grid-gap: 1em;
-    min-height: 560px;
+}
+
+iframe {
+    max-width: 100%;
+    min-width: 100%;
 }
 
 
