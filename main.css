@@ -2,6 +2,13 @@
     box-sizing: border-box;
   }
 
+html,
+body {
+    width: 90%;
+    margin: 2em auto; 
+    font-family: 'Crimson Text', serif;}
+
+
 header {
     text-align: center;
 }
@@ -9,12 +16,6 @@ header {
 img {
     max-width: 100%;
     height: auto;
-}
-
-.wrapper {
-    max-width: 100%;
-    height: auto;
-    padding: 3%;
 }
 
 .music {
@@ -25,9 +26,28 @@ img {
     text-align: left;
 }
 
+/* try to make the youtube videos at a maximum 560px x 315px, but auto adjust to smaller as needed, not extending beyond the wrapper */
+.video-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(315px, 1fr));
+    grid-gap: 1em;
+    min-height: 560px;
+}
+
+
+
 /* Mailchimp signup form */
 
-#mc_embed_signup, .mc-field-group {
+.mc-field-group {
     padding: 1%;
     
 }
+
+/* desktop breakpoint */
+
+/* @media only screen and (min-width: 768px) {
+    body {
+        max-width: 70%;
+        margin: 3em auto;
+    }
+} */
