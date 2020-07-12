@@ -27,10 +27,7 @@ img {
 
 /* Mailchimp signup form */
 
-/* #mc_embed_signup {
+#mc_embed_signup, .mc-field-group {
+    padding: 1%;
     
-} */
-
-.mc_field_group {
-    text-align: right;
 }
