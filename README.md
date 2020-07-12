@@ -1,4 +1,4 @@
-# gentle-return-2
+# Gentle Return website v2
 
 Second version of my music website, coding from scratch with minimal CSS. 
 
