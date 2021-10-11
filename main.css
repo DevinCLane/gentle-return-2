@@ -4,7 +4,7 @@
 
 html,
 body {
-    width: 90%;
+    max-width: 90%;
     margin: 2em auto; 
     font-family: 'Crimson Text', serif;}
 
@@ -13,10 +13,25 @@ header {
     text-align: center;
 }
 
+.announcement {
+    text-align: center;
+}
+
+.announcement > p {
+    text-align: left;
+}
+
 img {
-    width: 100%;
-    max-width: 1000px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    /* max-width: 80%; */
     height: auto;
+}
+
+figcaption {
+    text-align: center;
 }
 
 .music {
@@ -50,9 +65,9 @@ iframe {
 
 /* desktop breakpoint */
 
-/* @media only screen and (min-width: 768px) {
+@media only screen and (min-width: 768px) {
     body {
         max-width: 70%;
         margin: 3em auto;
     }
-} */
+}
